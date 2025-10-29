@@ -12,6 +12,11 @@ body{
   align-items: center;
 }
 
+.column{
+  border: 2px solid red
+}
+   
+
 
 @keyframes logo-spin {
   from {
