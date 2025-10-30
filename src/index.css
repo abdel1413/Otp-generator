@@ -66,3 +66,61 @@ button:focus-visible {
   cursor: not-allowed;
 
 }
+
+
+
+.form-wrap {
+  background-color: white;
+  width: 470px;
+  padding: 20px;
+  border: 1px solid black;
+  box-shadow: 5px 5px 10px black;
+}
+
+
+
+.form-wrap h2,
+.form-wrap p {
+  text-align: center;
+}
+
+.form-wrap p {
+  position: relative;
+  top: -18px;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.section {
+  display: flex;
+  margin-bottom: 30px;
+}
+.submit-wrap {
+  text-align: center;
+}
+
+.submit-btn {
+  display: block;
+  margin: 0 auto;
+  padding: 0.4rem 0.5rem;
+  border: 1px solid black
+}
+.submit-btn:disabled {
+  cursor: not-allowed;
+}
+
+
+.submit-btn:hover {
+  cursor: pointer;
+  background-color: #f3f3f3;
+}
+ 
+.submitted-data {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid black;
+  background-color: #f9f9f9;
+  box-shadow: 3px 3px 1px  rgb(145, 141, 141);
+}

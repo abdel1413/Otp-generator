@@ -1,6 +1,7 @@
 import { useState } from "react"
 import { PowerOptions } from "./PowerOptions"
 import { PowerListChBtn } from "./PowerListChBtn"
+import { EventForm } from "../EventRVSPForm/EventForm"
 
 
 export const SuperHero=()=>{
@@ -83,5 +84,6 @@ export const SuperHero=()=>{
             <button type="submit" className="submit-btn"
             disabled={!heroName || !realName || !powerSource || !powersList.length}>Join the League</button>
         </form>
+       
         </div>)
 }

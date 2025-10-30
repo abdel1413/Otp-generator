@@ -1,4 +1,5 @@
 
+import { EventForm } from './components/EventRVSPForm/EventForm.jsx';
 import { FormData } from './components/FormData';
 import { OtpGenerator } from './components/OtpGenerator';
 import { SuperHero} from './components/superHeroApp/SuperHero.jsx';
@@ -13,6 +14,7 @@ function App() {
      <FormData />
      <FetchUsers/>
    <SuperHero />
+    <EventForm/>
     </>
   )
 }
